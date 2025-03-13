@@ -35,7 +35,6 @@ a {
 
 .hero {
   background-color: #1f2937;
-  color: #f9faf8;
   display: flex;
   justify-content: space-between;
   padding: 80px 15%;
@@ -47,6 +46,7 @@ a {
 }
 
 .hero h1 {
+  color: #f9faf8;
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -55,7 +55,7 @@ a {
 .hero p {
   color: #e5e7eb;
   font-size: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 28px;
 }
 
 .hero img {
