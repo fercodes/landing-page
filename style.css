@@ -133,3 +133,39 @@ a {
   margin-top: 10px;
   color: #1f2937;
 }
+
+.cta-section {
+  padding: 80px 15%;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text h3 {
+  color: #f9faf8;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.cta-text p {
+  color: #e5e7eb;
+  font-size: 20px;
+}
+
+.cta-btn {
+  background-color: transparent;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  padding: 8px 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 16px;
+}
