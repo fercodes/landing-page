@@ -20,14 +20,13 @@ header {
   color: #f9faf8;
 }
 
-.header-links {
+nav {
   display: flex;
-  list-style: none;
   gap: 32px;
   justify-content: space-around;
 }
 
-a {
+nav a {
   font-size: 18px;
   text-decoration: none;
   color: #e5e7eb;
