@@ -177,3 +177,23 @@ footer {
   text-align: center;
   padding: 30px 0;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .info-cards {
+    flex-direction: column;
+  }
+
+  .cta-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .cta-btn {
+    margin-top: 20px;
+  }
+}
