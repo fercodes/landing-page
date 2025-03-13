@@ -168,6 +168,7 @@ a {
   font-size: 16px;
   cursor: pointer;
   margin: 16px;
+  flex-shrink: 0;
 }
 
 footer {
