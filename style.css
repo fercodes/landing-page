@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 
-.header {
+header {
   background-color: #1f2937;
   display: flex;
   justify-content: space-around;
