@@ -75,3 +75,41 @@ a {
   font-size: 16px;
   cursor: pointer;
 }
+
+.info-section {
+  padding: 60px 15%;
+  text-align: center;
+}
+
+.info-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 40px;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 20px;
+}
+
+.card-image {
+  min-height: 150px;
+  min-width: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #1f2937;
+  font-size: 16px;
+}
