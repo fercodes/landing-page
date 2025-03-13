@@ -32,3 +32,46 @@ a {
   text-decoration: none;
   color: #e5e7eb;
 }
+
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 15%;
+  gap: 40px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.hero img {
+  flex: 1;
+  background-color: #6b7280;
+  color: #f9faf8;
+  min-height: 250px;
+}
+
+.btn {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 40px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
